@@ -1,0 +1,9 @@
+{
+  "n_triplets": 400000,
+  "sources": {
+    "primekg": 200000,
+    "hetionet": 200000
+  },
+  "csv": "data/kg/combined_primekg_hetionet.csv",
+  "disease2demo": "data/kg/baseline_dataset/Disease2demo_combined.csv"
+}

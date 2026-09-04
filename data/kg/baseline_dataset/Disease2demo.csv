@@ -1,0 +1,401 @@
+demographic,disease,pdf_name
+Adults,Actinomycetales infectious disease,{combined_guideline.pdf}
+Elderly,Actinomycetales infectious disease,{combined_guideline.pdf}
+Adults,Addison disease,{combined_guideline.pdf}
+Elderly,Addison disease,{combined_guideline.pdf}
+Adults,Alzheimer disease,{combined_guideline.pdf}
+Elderly,Alzheimer disease,{combined_guideline.pdf}
+Adults,Alzheimer disease without neurofibrillary tangles,{combined_guideline.pdf}
+Elderly,Alzheimer disease without neurofibrillary tangles,{combined_guideline.pdf}
+Adults,Bartter disease,{combined_guideline.pdf}
+Elderly,Bartter disease,{combined_guideline.pdf}
+Adults,Brill-Zinsser disease,{combined_guideline.pdf}
+Elderly,Brill-Zinsser disease,{combined_guideline.pdf}
+Adults,Campylobacter fetus infectious disease,{combined_guideline.pdf}
+Elderly,Campylobacter fetus infectious disease,{combined_guideline.pdf}
+Adults,Castleman disease,{combined_guideline.pdf}
+Elderly,Castleman disease,{combined_guideline.pdf}
+Adults,Chagas disease,{combined_guideline.pdf}
+Elderly,Chagas disease,{combined_guideline.pdf}
+Adults,Charcot-Marie-Tooth disease,{combined_guideline.pdf}
+Elderly,Charcot-Marie-Tooth disease,{combined_guideline.pdf}
+Adults,Clostridium infectious disease,{combined_guideline.pdf}
+Elderly,Clostridium infectious disease,{combined_guideline.pdf}
+Adults,Coronavinae infectious disease,{combined_guideline.pdf}
+Elderly,Coronavinae infectious disease,{combined_guideline.pdf}
+Adults,Creutzfeldt Jacob disease,{combined_guideline.pdf}
+Elderly,Creutzfeldt Jacob disease,{combined_guideline.pdf}
+Adults,Creutzfeldt-Jakob disease,{combined_guideline.pdf}
+Elderly,Creutzfeldt-Jakob disease,{combined_guideline.pdf}
+Adults,Crohn disease,{combined_guideline.pdf}
+Elderly,Crohn disease,{combined_guideline.pdf}
+Adults,Cushing disease due to pituitary adenoma,{combined_guideline.pdf}
+Elderly,Cushing disease due to pituitary adenoma,{combined_guideline.pdf}
+Adults,Darier disease,{combined_guideline.pdf}
+Elderly,Darier disease,{combined_guideline.pdf}
+Adults,Enoplea infectious disease,{combined_guideline.pdf}
+Elderly,Enoplea infectious disease,{combined_guideline.pdf}
+Adults,Fabry disease,{combined_guideline.pdf}
+Elderly,Fabry disease,{combined_guideline.pdf}
+Adults,Gaucher disease,{combined_guideline.pdf}
+Elderly,Gaucher disease,{combined_guideline.pdf}
+Adults,Graves disease,{combined_guideline.pdf}
+Elderly,Graves disease,{combined_guideline.pdf}
+Adults,HIV infectious disease,{combined_guideline.pdf}
+Elderly,HIV infectious disease,{combined_guideline.pdf}
+Adults,Hirschsprung disease,{combined_guideline.pdf}
+Elderly,Hirschsprung disease,{combined_guideline.pdf}
+Adults,Hirschsprung disease-deafness-polydactyly syndrome,{combined_guideline.pdf}
+Elderly,Hirschsprung disease-deafness-polydactyly syndrome,{combined_guideline.pdf}
+Adults,Hirschsprung disease-ganglioneuroblastoma syndrome,{combined_guideline.pdf}
+Elderly,Hirschsprung disease-ganglioneuroblastoma syndrome,{combined_guideline.pdf}
+Adults,Hirschsprung disease-nail hypoplasia-dysmorphism syndrome,{combined_guideline.pdf}
+Elderly,Hirschsprung disease-nail hypoplasia-dysmorphism syndrome,{combined_guideline.pdf}
+Adults,Hirschsprung disease-type D brachydactyly syndrome,{combined_guideline.pdf}
+Elderly,Hirschsprung disease-type D brachydactyly syndrome,{combined_guideline.pdf}
+Adults,Huntington disease,{combined_guideline.pdf}
+Elderly,Huntington disease,{combined_guideline.pdf}
+Adults,Huntington disease-like,{combined_guideline.pdf}
+Elderly,Huntington disease-like,{combined_guideline.pdf}
+Adults,Huntington disease-like syndrome due to C9ORF72 expansions,{combined_guideline.pdf}
+Elderly,Huntington disease-like syndrome due to C9ORF72 expansions,{combined_guideline.pdf}
+Adults,Kaposi's sarcoma,{combined_guideline.pdf}
+Elderly,Kaposi's sarcoma,{combined_guideline.pdf}
+Adults,Kimura disease,{combined_guideline.pdf}
+Elderly,Kimura disease,{combined_guideline.pdf}
+Adults,Legionnaires' disease,{combined_guideline.pdf}
+Elderly,Legionnaires' disease,{combined_guideline.pdf}
+Adults,Lyme disease,{combined_guideline.pdf}
+Elderly,Lyme disease,{combined_guideline.pdf}
+Adults,Lyme disease vaccine,{combined_guideline.pdf}
+Elderly,Lyme disease vaccine,{combined_guideline.pdf}
+Adults,Meniere disease,{combined_guideline.pdf}
+Elderly,Meniere disease,{combined_guideline.pdf}
+Adults,Niemann-Pick disease,{combined_guideline.pdf}
+Elderly,Niemann-Pick disease,{combined_guideline.pdf}
+Adults,Oguchi disease,{combined_guideline.pdf}
+Elderly,Oguchi disease,{combined_guideline.pdf}
+Adults,Parkinson disease,{combined_guideline.pdf}
+Elderly,Parkinson disease,{combined_guideline.pdf}
+Adults,Pasteurella multocida infectious disease,{combined_guideline.pdf}
+Elderly,Pasteurella multocida infectious disease,{combined_guideline.pdf}
+Adults,Peptostreptococcus infectious disease,{combined_guideline.pdf}
+Elderly,Peptostreptococcus infectious disease,{combined_guideline.pdf}
+Adults,Peyronie disease,{combined_guideline.pdf}
+Elderly,Peyronie disease,{combined_guideline.pdf}
+Adults,Pick disease,{combined_guideline.pdf}
+Elderly,Pick disease,{combined_guideline.pdf}
+Adults,Pseudomonas aeruginosa infectious disease,{combined_guideline.pdf}
+Elderly,Pseudomonas aeruginosa infectious disease,{combined_guideline.pdf}
+Adults,Raynaud disease,{combined_guideline.pdf}
+Elderly,Raynaud disease,{combined_guideline.pdf}
+Adults,Stargardt disease,{combined_guideline.pdf}
+Elderly,Stargardt disease,{combined_guideline.pdf}
+Adults,Treponema infectious disease,{combined_guideline.pdf}
+Elderly,Treponema infectious disease,{combined_guideline.pdf}
+Adults,Trichinella spiralis infectious disease,{combined_guideline.pdf}
+Elderly,Trichinella spiralis infectious disease,{combined_guideline.pdf}
+Adults,Whipple disease,{combined_guideline.pdf}
+Elderly,Whipple disease,{combined_guideline.pdf}
+Adults,Wilson disease,{combined_guideline.pdf}
+Elderly,Wilson disease,{combined_guideline.pdf}
+Adults,Wolff-Parkinson-white syndrome,{combined_guideline.pdf}
+Elderly,Wolff-Parkinson-white syndrome,{combined_guideline.pdf}
+Adults,Wolman disease,{combined_guideline.pdf}
+Elderly,Wolman disease,{combined_guideline.pdf}
+Adults,Yersinia enterocolitica infectious disease,{combined_guideline.pdf}
+Elderly,Yersinia enterocolitica infectious disease,{combined_guideline.pdf}
+Adults,Yersinia infectious disease,{combined_guideline.pdf}
+Elderly,Yersinia infectious disease,{combined_guideline.pdf}
+Adults,Yersinia pseudotuberculosis infectious disease,{combined_guideline.pdf}
+Elderly,Yersinia pseudotuberculosis infectious disease,{combined_guideline.pdf}
+Adults,achalasia,{combined_guideline.pdf}
+Elderly,achalasia,{combined_guideline.pdf}
+Adults,acne,{combined_guideline.pdf}
+Elderly,acne,{combined_guideline.pdf}
+Adults,actinic keratosis,{combined_guideline.pdf}
+Elderly,actinic keratosis,{combined_guideline.pdf}
+Adults,active peptic ulcer disease,{combined_guideline.pdf}
+Elderly,active peptic ulcer disease,{combined_guideline.pdf}
+Adults,acute cystitis,{combined_guideline.pdf}
+Elderly,acute cystitis,{combined_guideline.pdf}
+Adults,acute leukemia,{combined_guideline.pdf}
+Elderly,acute leukemia,{combined_guideline.pdf}
+Adults,acute lymphoblastic leukemia,{combined_guideline.pdf}
+Elderly,acute lymphoblastic leukemia,{combined_guideline.pdf}
+Adults,amblyopia,{combined_guideline.pdf}
+Elderly,amblyopia,{combined_guideline.pdf}
+Adults,amenorrhea,{combined_guideline.pdf}
+Elderly,amenorrhea,{combined_guideline.pdf}
+Adults,amyloidosis,{combined_guideline.pdf}
+Elderly,amyloidosis,{combined_guideline.pdf}
+Adults,anaerobic bacteria infectious disease,{combined_guideline.pdf}
+Elderly,anaerobic bacteria infectious disease,{combined_guideline.pdf}
+Adults,anemia,{combined_guideline.pdf}
+Elderly,anemia,{combined_guideline.pdf}
+Adults,anterior horn disease,{combined_guideline.pdf}
+Elderly,anterior horn disease,{combined_guideline.pdf}
+Adults,anti-glomerular basement membrane disease,{combined_guideline.pdf}
+Elderly,anti-glomerular basement membrane disease,{combined_guideline.pdf}
+Adults,anus disease,{combined_guideline.pdf}
+Elderly,anus disease,{combined_guideline.pdf}
+Adults,aortic valve disease,{combined_guideline.pdf}
+Elderly,aortic valve disease,{combined_guideline.pdf}
+Adults,arthritic joint disease,{combined_guideline.pdf}
+Elderly,arthritic joint disease,{combined_guideline.pdf}
+Adults,aspiration pneumonia,{combined_guideline.pdf}
+Elderly,aspiration pneumonia,{combined_guideline.pdf}
+Adults,atrial fibrillation,{combined_guideline.pdf}
+Elderly,atrial fibrillation,{combined_guideline.pdf}
+Adults,atrial flutter,{combined_guideline.pdf}
+Elderly,atrial flutter,{combined_guideline.pdf}
+Adults,atrioventricular block,{combined_guideline.pdf}
+Elderly,atrioventricular block,{combined_guideline.pdf}
+Adults,atrioventricular dissociation,{combined_guideline.pdf}
+Elderly,atrioventricular dissociation,{combined_guideline.pdf}
+Adults,auditory system disease,{combined_guideline.pdf}
+Elderly,auditory system disease,{combined_guideline.pdf}
+Adults,autism,{combined_guideline.pdf}
+Elderly,autism,{combined_guideline.pdf}
+Adults,autoimmune disease,{combined_guideline.pdf}
+Elderly,autoimmune disease,{combined_guideline.pdf}
+Adults,autonomic nervous system disease,{combined_guideline.pdf}
+Elderly,autonomic nervous system disease,{combined_guideline.pdf}
+Adults,bacterial infectious disease with sepsis,{combined_guideline.pdf}
+Elderly,bacterial infectious disease with sepsis,{combined_guideline.pdf}
+Adults,basal ganglia disease,{combined_guideline.pdf}
+Elderly,basal ganglia disease,{combined_guideline.pdf}
+Adults,benign prostatic hyperplasia,{combined_guideline.pdf}
+Elderly,benign prostatic hyperplasia,{combined_guideline.pdf}
+Adults,beta-thalassemia and related diseases,{combined_guideline.pdf}
+Elderly,beta-thalassemia and related diseases,{combined_guideline.pdf}
+Adults,biliary tract disease,{combined_guideline.pdf}
+Elderly,biliary tract disease,{combined_guideline.pdf}
+Adults,blood coagulation disease,{combined_guideline.pdf}
+Elderly,blood coagulation disease,{combined_guideline.pdf}
+Adults,bone Paget disease,{combined_guideline.pdf}
+Elderly,bone Paget disease,{combined_guideline.pdf}
+Adults,bone disease,{combined_guideline.pdf}
+Elderly,bone disease,{combined_guideline.pdf}
+Adults,brain disease,{combined_guideline.pdf}
+Elderly,brain disease,{combined_guideline.pdf}
+Adults,breast fibrocystic disease,{combined_guideline.pdf}
+Elderly,breast fibrocystic disease,{combined_guideline.pdf}
+Adults,bronchial disease,{combined_guideline.pdf}
+Elderly,bronchial disease,{combined_guideline.pdf}
+Adults,bronchiolitis,{combined_guideline.pdf}
+Elderly,bronchiolitis,{combined_guideline.pdf}
+Adults,bruxism,{combined_guideline.pdf}
+Elderly,bruxism,{combined_guideline.pdf}
+Adults,calcium metabolic disease,{combined_guideline.pdf}
+Elderly,calcium metabolic disease,{combined_guideline.pdf}
+Adults,capillary disease,{combined_guideline.pdf}
+Elderly,capillary disease,{combined_guideline.pdf}
+Adults,carbamoyl phosphate synthetase I deficiency disease,{combined_guideline.pdf}
+Elderly,carbamoyl phosphate synthetase I deficiency disease,{combined_guideline.pdf}
+Adults,cardiovascular disease,{combined_guideline.pdf}
+Elderly,cardiovascular disease,{combined_guideline.pdf}
+Adults,cartilage disease,{combined_guideline.pdf}
+Elderly,cartilage disease,{combined_guideline.pdf}
+Adults,cat-scratch disease,{combined_guideline.pdf}
+Elderly,cat-scratch disease,{combined_guideline.pdf}
+Adults,celiac disease,{combined_guideline.pdf}
+Elderly,celiac disease,{combined_guideline.pdf}
+Adults,central nervous system disease,{combined_guideline.pdf}
+Elderly,central nervous system disease,{combined_guideline.pdf}
+Adults,cervicitis,{combined_guideline.pdf}
+Elderly,cervicitis,{combined_guideline.pdf}
+Adults,chlamydia infectious disease,{combined_guideline.pdf}
+Elderly,chlamydia infectious disease,{combined_guideline.pdf}
+Adults,chlamydia trachomatis infectious disease,{combined_guideline.pdf}
+Elderly,chlamydia trachomatis infectious disease,{combined_guideline.pdf}
+Adults,choreatic disease,{combined_guideline.pdf}
+Elderly,choreatic disease,{combined_guideline.pdf}
+Adults,chorioretinitis,{combined_guideline.pdf}
+Elderly,chorioretinitis,{combined_guideline.pdf}
+Adults,chronic beryllium disease,{combined_guideline.pdf}
+Elderly,chronic beryllium disease,{combined_guideline.pdf}
+Adults,chronic diarrheal disease,{combined_guideline.pdf}
+Elderly,chronic diarrheal disease,{combined_guideline.pdf}
+Adults,chronic kidney disease,{combined_guideline.pdf}
+Elderly,chronic kidney disease,{combined_guideline.pdf}
+Adults,chronic obstructive pulmonary disease,{combined_guideline.pdf}
+Elderly,chronic obstructive pulmonary disease,{combined_guideline.pdf}
+Adults,chylomicron retention disease,{combined_guideline.pdf}
+Elderly,chylomicron retention disease,{combined_guideline.pdf}
+Adults,ciliary body disease,{combined_guideline.pdf}
+Elderly,ciliary body disease,{combined_guideline.pdf}
+Adults,colitis,{combined_guideline.pdf}
+Elderly,colitis,{combined_guideline.pdf}
+Adults,congenital heart disease,{combined_guideline.pdf}
+Elderly,congenital heart disease,{combined_guideline.pdf}
+Adults,conjunctivitis,{combined_guideline.pdf}
+Elderly,conjunctivitis,{combined_guideline.pdf}
+Adults,connective tissue disease,{combined_guideline.pdf}
+Elderly,connective tissue disease,{combined_guideline.pdf}
+Adults,constrictive pericarditis,{combined_guideline.pdf}
+Elderly,constrictive pericarditis,{combined_guideline.pdf}
+Adults,corneal disease,{combined_guideline.pdf}
+Elderly,corneal disease,{combined_guideline.pdf}
+Adults,coronary artery disease,{combined_guideline.pdf}
+Elderly,coronary artery disease,{combined_guideline.pdf}
+Adults,cryptorchidism,{combined_guideline.pdf}
+Elderly,cryptorchidism,{combined_guideline.pdf}
+Adults,dementia,{combined_guideline.pdf}
+Elderly,dementia,{combined_guideline.pdf}
+Adults,demyelinating disease,{combined_guideline.pdf}
+Elderly,demyelinating disease,{combined_guideline.pdf}
+Adults,diabetes mellitus,{combined_guideline.pdf}
+Elderly,diabetes mellitus,{combined_guideline.pdf}
+Adults,diarrheal disease,{combined_guideline.pdf}
+Elderly,diarrheal disease,{combined_guideline.pdf}
+Adults,digestive system disease,{combined_guideline.pdf}
+Elderly,digestive system disease,{combined_guideline.pdf}
+Adults,disease of neck of urinary bladder,{combined_guideline.pdf}
+Elderly,disease of neck of urinary bladder,{combined_guideline.pdf}
+Adults,disease of orbital region,{combined_guideline.pdf}
+Elderly,disease of orbital region,{combined_guideline.pdf}
+Adults,duodenal ulcer,{combined_guideline.pdf}
+Elderly,duodenal ulcer,{combined_guideline.pdf}
+Adults,echinococcus granulosus infectious disease,{combined_guideline.pdf}
+Elderly,echinococcus granulosus infectious disease,{combined_guideline.pdf}
+Adults,endocrine pancreas disease,{combined_guideline.pdf}
+Elderly,endocrine pancreas disease,{combined_guideline.pdf}
+Adults,endometrial carcinoma,{combined_guideline.pdf}
+Elderly,endometrial carcinoma,{combined_guideline.pdf}
+Adults,endometriosis,{combined_guideline.pdf}
+Elderly,endometriosis,{combined_guideline.pdf}
+Adults,enterocolitis,{combined_guideline.pdf}
+Elderly,enterocolitis,{combined_guideline.pdf}
+Adults,erectile dysfunction,{combined_guideline.pdf}
+Elderly,erectile dysfunction,{combined_guideline.pdf}
+Adults,esophageal disease,{combined_guideline.pdf}
+Elderly,esophageal disease,{combined_guideline.pdf}
+Adults,esophagitis,{combined_guideline.pdf}
+Elderly,esophagitis,{combined_guideline.pdf}
+Adults,exanthem,{combined_guideline.pdf}
+Elderly,exanthem,{combined_guideline.pdf}
+Adults,external ear disease,{combined_guideline.pdf}
+Elderly,external ear disease,{combined_guideline.pdf}
+Adults,eye disease,{combined_guideline.pdf}
+Elderly,eye disease,{combined_guideline.pdf}
+Adults,eye infectious disease,{combined_guideline.pdf}
+Elderly,eye infectious disease,{combined_guideline.pdf}
+Adults,farmer's lung disease,{combined_guideline.pdf}
+Elderly,farmer's lung disease,{combined_guideline.pdf}
+Adults,fatty liver disease,{combined_guideline.pdf}
+Elderly,fatty liver disease,{combined_guideline.pdf}
+Adults,fungal infectious disease,{combined_guideline.pdf}
+Elderly,fungal infectious disease,{combined_guideline.pdf}
+Adults,gallbladder disease,{combined_guideline.pdf}
+Elderly,gallbladder disease,{combined_guideline.pdf}
+Adults,gastric ulcer,{combined_guideline.pdf}
+Elderly,gastric ulcer,{combined_guideline.pdf}
+Adults,gastroesophageal reflux disease,{combined_guideline.pdf}
+Elderly,gastroesophageal reflux disease,{combined_guideline.pdf}
+Adults,gastroparesis,{combined_guideline.pdf}
+Elderly,gastroparesis,{combined_guideline.pdf}
+Adults,glioblastoma,{combined_guideline.pdf}
+Elderly,glioblastoma,{combined_guideline.pdf}
+Adults,glycogen storage disease,{combined_guideline.pdf}
+Elderly,glycogen storage disease,{combined_guideline.pdf}
+Adults,goiter,{combined_guideline.pdf}
+Elderly,goiter,{combined_guideline.pdf}
+Adults,graft versus host disease,{combined_guideline.pdf}
+Elderly,graft versus host disease,{combined_guideline.pdf}
+Adults,granulomatous slack skin disease,{combined_guideline.pdf}
+Elderly,granulomatous slack skin disease,{combined_guideline.pdf}
+Adults,hand-Schuller-Christian disease,{combined_guideline.pdf}
+Elderly,hand-Schuller-Christian disease,{combined_guideline.pdf}
+Adults,heart conduction disease,{combined_guideline.pdf}
+Elderly,heart conduction disease,{combined_guideline.pdf}
+Adults,heart disease,{combined_guideline.pdf}
+Elderly,heart disease,{combined_guideline.pdf}
+Adults,heart valve disease,{combined_guideline.pdf}
+Elderly,heart valve disease,{combined_guideline.pdf}
+Adults,hematologic disease,{combined_guideline.pdf}
+Elderly,hematologic disease,{combined_guideline.pdf}
+Adults,hemopericardium,{combined_guideline.pdf}
+Elderly,hemopericardium,{combined_guideline.pdf}
+Adults,hemorrhagic disease of newborn,{combined_guideline.pdf}
+Elderly,hemorrhagic disease of newborn,{combined_guideline.pdf}
+Adults,heparin-induced thrombocytopenia,{combined_guideline.pdf}
+Elderly,heparin-induced thrombocytopenia,{combined_guideline.pdf}
+Adults,hepatic veno-occlusive disease,{combined_guideline.pdf}
+Elderly,hepatic veno-occlusive disease,{combined_guideline.pdf}
+Adults,hepatic veno-occlusive disease-immunodeficiency syndrome,{combined_guideline.pdf}
+Elderly,hepatic veno-occlusive disease-immunodeficiency syndrome,{combined_guideline.pdf}
+Adults,hereditary late onset Parkinson disease,{combined_guideline.pdf}
+Elderly,hereditary late onset Parkinson disease,{combined_guideline.pdf}
+Adults,hereditary von Willebrand disease,{combined_guideline.pdf}
+Elderly,hereditary von Willebrand disease,{combined_guideline.pdf}
+Adults,herpes simplex infectious disease,{combined_guideline.pdf}
+Elderly,herpes simplex infectious disease,{combined_guideline.pdf}
+Adults,hiatus hernia,{combined_guideline.pdf}
+Elderly,hiatus hernia,{combined_guideline.pdf}
+Adults,homocystinuria,{combined_guideline.pdf}
+Elderly,homocystinuria,{combined_guideline.pdf}
+Adults,human prion disease,{combined_guideline.pdf}
+Elderly,human prion disease,{combined_guideline.pdf}
+Adults,hypercalcemia disease,{combined_guideline.pdf}
+Elderly,hypercalcemia disease,{combined_guideline.pdf}
+Adults,hyperemesis gravidarum,{combined_guideline.pdf}
+Elderly,hyperemesis gravidarum,{combined_guideline.pdf}
+Adults,hyperinsulinism,{combined_guideline.pdf}
+Elderly,hyperinsulinism,{combined_guideline.pdf}
+Adults,hyperphosphatemia,{combined_guideline.pdf}
+Elderly,hyperphosphatemia,{combined_guideline.pdf}
+Adults,hyperprolactinemia,{combined_guideline.pdf}
+Elderly,hyperprolactinemia,{combined_guideline.pdf}
+Adults,hypersplenism,{combined_guideline.pdf}
+Elderly,hypersplenism,{combined_guideline.pdf}
+Adults,hypertrichosis,{combined_guideline.pdf}
+Elderly,hypertrichosis,{combined_guideline.pdf}
+Adults,hypertriglyceridemia,{combined_guideline.pdf}
+Elderly,hypertriglyceridemia,{combined_guideline.pdf}
+Adults,hypoaldosteronism disease,{combined_guideline.pdf}
+Elderly,hypoaldosteronism disease,{combined_guideline.pdf}
+Adults,hypophosphatemia,{combined_guideline.pdf}
+Elderly,hypophosphatemia,{combined_guideline.pdf}
+Adults,hypopigmentation of the skin,{combined_guideline.pdf}
+Elderly,hypopigmentation of the skin,{combined_guideline.pdf}
+Adults,ichthyosis,{combined_guideline.pdf}
+Elderly,ichthyosis,{combined_guideline.pdf}
+Adults,immune system disease,{combined_guideline.pdf}
+Elderly,immune system disease,{combined_guideline.pdf}
+Adults,impaired renal function disease,{combined_guideline.pdf}
+Elderly,impaired renal function disease,{combined_guideline.pdf}
+Adults,infectious diarrheal disease,{combined_guideline.pdf}
+Elderly,infectious diarrheal disease,{combined_guideline.pdf}
+Adults,infectious disease,{combined_guideline.pdf}
+Elderly,infectious disease,{combined_guideline.pdf}
+Adults,inflammatory bowel disease,{combined_guideline.pdf}
+Elderly,inflammatory bowel disease,{combined_guideline.pdf}
+Adults,insomnia,{combined_guideline.pdf}
+Elderly,insomnia,{combined_guideline.pdf}
+Adults,interstitial lung disease,{combined_guideline.pdf}
+Elderly,interstitial lung disease,{combined_guideline.pdf}
+Adults,intestinal disease,{combined_guideline.pdf}
+Elderly,intestinal disease,{combined_guideline.pdf}
+Adults,intestinal infectious disease,{combined_guideline.pdf}
+Elderly,intestinal infectious disease,{combined_guideline.pdf}
+Adults,iridocyclitis,{combined_guideline.pdf}
+Elderly,iridocyclitis,{combined_guideline.pdf}
+Adults,iris disease,{combined_guideline.pdf}
+Elderly,iris disease,{combined_guideline.pdf}
+Adults,iritis,{combined_guideline.pdf}
+Elderly,iritis,{combined_guideline.pdf}
+Adults,iron metabolism disease,{combined_guideline.pdf}
+Elderly,iron metabolism disease,{combined_guideline.pdf}
+Adults,ischemic bowel disease,{combined_guideline.pdf}
+Elderly,ischemic bowel disease,{combined_guideline.pdf}
+Adults,juvenile Huntington disease,{combined_guideline.pdf}
+Elderly,juvenile Huntington disease,{combined_guideline.pdf}
+Adults,juvenile Paget disease,{combined_guideline.pdf}
+Elderly,juvenile Paget disease,{combined_guideline.pdf}
+Adults,juvenile onset Parkinson disease 19A,{combined_guideline.pdf}
+Elderly,juvenile onset Parkinson disease 19A,{combined_guideline.pdf}
+Adults,keratinization disease,{combined_guideline.pdf}
+Elderly,keratinization disease,{combined_guideline.pdf}
+Adults,kidney disease,{combined_guideline.pdf}
+Elderly,kidney disease,{combined_guideline.pdf}

@@ -1,0 +1,8 @@
+{
+  "acc": 0.4,
+  "turns": 0.2,
+  "ece": 0.0,
+  "brier": 0.6,
+  "n": 5,
+  "file": "/DATA/vaneet_2221cs15/abs_task/KnowGuard/results/KnowGuardExpert_ioMEDQA_smoke5.jsonl"
+}

@@ -1,0 +1,8 @@
+{
+  "acc": 0.6,
+  "turns": 0.0,
+  "ece": 0.0,
+  "brier": 0.4,
+  "n": 5,
+  "file": "results/OpenEndedScaleExpert_smoke.jsonl"
+}

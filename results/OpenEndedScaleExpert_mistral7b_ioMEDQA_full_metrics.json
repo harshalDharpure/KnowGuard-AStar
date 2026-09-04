@@ -1,0 +1,8 @@
+{
+  "acc": 0.3356918238993711,
+  "turns": 2.0770440251572326,
+  "ece": 0.33632075471698103,
+  "brier": 0.35040880503144656,
+  "n": 1272,
+  "file": "/DATA/vaneet_2221cs15/abs_task/KnowGuard/results/OpenEndedScaleExpert_mistral7b_ioMEDQA_full.jsonl"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "combined_guideline.pdf",
+    "png_dir_path": "WHO/combined/",
+    "sources": [
+      "primekg",
+      "hetionet"
+    ]
+  }
+]

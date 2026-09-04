@@ -1,0 +1,5 @@
+{
+  "n_passages": 4001,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dim": 384
+}

@@ -1,0 +1,8 @@
+{
+  "acc": 0.714041095890411,
+  "turns": 7.3493150684931505,
+  "ece": 0.2928082191780822,
+  "brier": 0.4768493150684931,
+  "n": 584,
+  "file": "results/KnowGuardExpert_astar_lite_nim_ioMEDQA_merged.jsonl"
+}

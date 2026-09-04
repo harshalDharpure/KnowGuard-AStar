@@ -1,0 +1,178 @@
+[
+  {
+    "method": "KnowGuardExpert_ioMEDQA",
+    "dataset": "full",
+    "acc": 0.2751572327044025,
+    "turns": 0.45047169811320753,
+    "ece": 0.0003144654088050315,
+    "brier": 0.7249685534591195,
+    "n": 1272,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "KnowGuardExpert_ioMEDQA",
+    "dataset": "smoke10",
+    "acc": 0.4,
+    "turns": 0.6,
+    "ece": 0.0,
+    "brier": 0.6,
+    "n": 10,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "KnowGuardExpert_ioMEDQA",
+    "dataset": "smoke5",
+    "acc": 0.4,
+    "turns": 0.2,
+    "ece": 0.0,
+    "brier": 0.6,
+    "n": 5,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "KnowGuardExpert_llama31_8b_ioMEDQA",
+    "dataset": "full",
+    "acc": 0.3490566037735849,
+    "turns": 0.9150943396226415,
+    "ece": 0.3754716981132075,
+    "brier": 0.3963522012578617,
+    "n": 1272,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "KnowGuardExpert_llama31_8b_local80stack_ioMEDQA",
+    "dataset": "smoke50",
+    "acc": 0.36,
+    "turns": 0.14,
+    "ece": 0.3940000000000001,
+    "brier": 0.3818000000000001,
+    "n": 50,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "KnowGuardExpert",
+    "dataset": "unknown",
+    "acc": 0.2,
+    "turns": 0.2,
+    "ece": 0.0,
+    "brier": 0.8,
+    "n": 5,
+    "paper_acc": 0.7098,
+    "paper_turns": 5.41
+  },
+  {
+    "method": "KnowGuardExpert_mistral7b_ioMEDQA",
+    "dataset": "full",
+    "acc": 0.32547169811320753,
+    "turns": 0.1871069182389937,
+    "ece": 0.4577044025157232,
+    "brier": 0.43443396226415104,
+    "n": 1272,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "OpenEndedNumericalCutOffExpert_ioMEDQA",
+    "dataset": "full",
+    "acc": 0.2830188679245283,
+    "turns": 12.0,
+    "ece": 0.2830188679245283,
+    "brier": 0.2830188679245283,
+    "n": 1272,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "OpenEndedNumericalCutOffExpert_ioMEDQA",
+    "dataset": "smoke10",
+    "acc": 0.6,
+    "turns": 3.0,
+    "ece": 0.6,
+    "brier": 0.6,
+    "n": 10,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "OpenEndedNumericalCutOffExpert_ioMEDQA",
+    "dataset": "smoke5",
+    "acc": 0.6,
+    "turns": 3.0,
+    "ece": 0.6,
+    "brier": 0.6,
+    "n": 5,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "OpenEndedScaleExpert_ioMEDQA",
+    "dataset": "full",
+    "acc": 0.2539308176100629,
+    "turns": 0.25707547169811323,
+    "ece": 0.0009433962264150943,
+    "brier": 0.745062893081761,
+    "n": 1272,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "OpenEndedScaleExpert_ioMEDQA",
+    "dataset": "smoke10",
+    "acc": 0.2,
+    "turns": 0.3,
+    "ece": 0.0,
+    "brier": 0.8,
+    "n": 10,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "OpenEndedScaleExpert_ioMEDQA",
+    "dataset": "smoke5",
+    "acc": 0.4,
+    "turns": 0.6,
+    "ece": 0.0,
+    "brier": 0.6,
+    "n": 5,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "OpenEndedScaleExpert_llama31_8b_ioMEDQA",
+    "dataset": "full",
+    "acc": 0.3694968553459119,
+    "turns": 4.043238993710692,
+    "ece": 0.18050314465408798,
+    "brier": 0.31798742138364783,
+    "n": 1272,
+    "paper_acc": null,
+    "paper_turns": null
+  },
+  {
+    "method": "OpenEndedScaleExpert",
+    "dataset": "unknown",
+    "acc": 0.6,
+    "turns": 0.0,
+    "ece": 0.0,
+    "brier": 0.4,
+    "n": 5,
+    "paper_acc": 0.6423,
+    "paper_turns": 5.15
+  },
+  {
+    "method": "OpenEndedScaleExpert_mistral7b_ioMEDQA",
+    "dataset": "full",
+    "acc": 0.3356918238993711,
+    "turns": 2.0770440251572326,
+    "ece": 0.33632075471698103,
+    "brier": 0.35040880503144656,
+    "n": 1272,
+    "paper_acc": null,
+    "paper_turns": null
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "acc": 0.2751572327044025,
+  "turns": 0.45047169811320753,
+  "ece": 0.0003144654088050315,
+  "brier": 0.7249685534591195,
+  "n": 1272,
+  "file": "/DATA/vaneet_2221cs15/abs_task/KnowGuard/results/KnowGuardExpert_ioMEDQA_full.jsonl"
+}

@@ -1,0 +1,11 @@
+{
+  "smoke_acc": 0.36,
+  "threshold": 0.65,
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "tag": "llama31_8b_local80stack",
+  "api": false,
+  "paper_knowguard_acc": 0.7098,
+  "target_acc": 0.8,
+  "milestone_A_pass": false,
+  "note": "\u226580% requires frontier API (GPT-4o/o1). Local stack validates RAG+adjudicator wiring only."
+}

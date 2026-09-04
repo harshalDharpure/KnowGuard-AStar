@@ -1,0 +1,8 @@
+{
+  "acc": 0.36,
+  "turns": 0.14,
+  "ece": 0.3940000000000001,
+  "brier": 0.3818000000000001,
+  "n": 50,
+  "file": "/DATA/vaneet_2221cs15/abs_task/KnowGuard/results/KnowGuardExpert_llama31_8b_local80stack_ioMEDQA_smoke50.jsonl"
+}

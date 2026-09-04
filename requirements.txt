@@ -1,0 +1,14 @@
+torch>=2.1.0
+transformers>=4.40.0
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm>=4.66.0
+datasets>=2.19.0
+langchain-core>=0.2.0
+accelerate>=0.30.0
+pillow>=10.0.0
+spacy>=3.7.0
+openai>=1.30.0
+rank-bm25>=0.2.2
