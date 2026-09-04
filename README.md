@@ -3,8 +3,8 @@
 [![GitHub release](https://img.shields.io/github/v/release/harshalDharpure/KnowGuard-AStar?include_prereleases)](https://github.com/harshalDharpure/KnowGuard-AStar/releases)
 [![arXiv](https://img.shields.io/badge/arXiv-2509.24816-b31b1b.svg)](https://arxiv.org/abs/2509.24816)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Dataset](https://img.shields.io/badge/dataset-ioMEDQA%20N%3D1272-blue)](data/interactive/ioMEDQA.jsonl)
-[![Status](https://img.shields.io/badge/full%20run-partial%20~47%25-orange)](docs/RESEARCH_STATUS.md)
+[![Dataset](https://img.shields.io/badge/dataset-ioMEDQA_1272-blue)](data/interactive/ioMEDQA.jsonl)
+[![Status](https://img.shields.io/badge/full_run-partial_47pct-orange)](docs/RESEARCH_STATUS.md)
 [![Cite](https://img.shields.io/badge/cite-CITATION.cff-lightgrey)](CITATION.cff)
 
 **Paper:** *KnowGuard: Knowledge-Driven Abstention for Multi-Round Clinical Reasoning* (ICLR 2026)  
@@ -404,7 +404,7 @@ python scripts/compute_metrics.py results/KnowGuardExpert_astar_lite_nim_ioMEDQA
 
 | Tag | Date | Meaning |
 |-----|------|---------|
-| [`v0.1.0`](https://github.com/harshalDharpure/KnowGuard-AStar/releases/tag/v0.1.0) | 2026-08 | Free local replication (full N=1272 weak LLMs) |
+| [`v0.1.0-baseline-docs`](https://github.com/harshalDharpure/KnowGuard-AStar/releases/tag/v0.1.0-baseline-docs) | 2026-08 era | Free local replication (full N=1272 weak LLMs) |
 | [`v0.2.0`](https://github.com/harshalDharpure/KnowGuard-AStar/releases/tag/v0.2.0) | 2026-09-04 | A* lite + Ultra multi-provider **partial** full run (~71% @ ~N=600) |
 | `v0.3.0` *(planned)* | — | Frozen full **N=1272** + paper tables |
 
