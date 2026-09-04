@@ -6,7 +6,7 @@
 **This fork:** free/local + NVIDIA NIM / multi-provider evaluation stack aimed at beating the paper on **interactive ioMEDQA**.
 
 > **Snapshot date:** 2026-09-04 (IST)  
-> **Headline (partial full run):** **71.4% ACC on N=584 / 1272** interactive ioMEDQA cases — already **above** the paper’s basic KnowGuard **70.98%**, with the full N=1272 still running.
+> **Headline (partial full run):** **71.4% ACC on N=587 / 1272** interactive ioMEDQA cases — already **above** the paper’s basic KnowGuard **70.98%**, with the full N=1272 still running.
 
 ---
 
@@ -63,11 +63,11 @@ We rebuilt a **runnable free stack**, then upgraded it with:
 
 ### 3.1 Flagship — A\* lite + Nemotron Ultra (partial full ioMEDQA)
 
-**Status:** 4 shards in progress · **584 / 1272 (45.9%)** completed · metrics recomputed 2026-09-04.
+**Status:** 4 shards in progress · **587 / 1272 (~46%)** completed · metrics recomputed 2026-09-04.
 
 | Split | N | ACC | Avg turns | ECE | Brier | Notes |
 |-------|--:|----:|----------:|----:|------:|-------|
-| **Merged (live)** | **584** | **71.40%** | **7.35** | 0.293 | 0.477 | Above paper basic 70.98% |
+| **Merged (live)** | **587** | **71.38%** | **7.35** | 0.295 | 0.480 | Above paper basic 70.98% |
 | Shard 0 | 104 | 83.65% | 7.57 | 0.350 | 0.466 | Mostly Ultra; Gemini lite later |
 | Shard 1 | 138 | 71.01% | 7.43 | 0.261 | 0.431 | Ultra → OpenRouter Super:free |
 | Shard 2 | 194 | 68.56% | 7.41 | 0.320 | 0.534 | NIM Ultra (primary) |
