@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Original KnowGuard paper
+    url: https://arxiv.org/abs/2509.24816
+    about: ICLR 2026 / arXiv:2509.24816
+  - name: Upstream KnowGuard code
+    url: https://github.com/IcecreamArtist/KnowGuard
+    about: Original public repository

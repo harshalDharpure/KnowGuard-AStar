@@ -1,0 +1,41 @@
+# Citation File Format — https://citation-file-format.github.io/
+cff-version: 1.2.0
+title: "KnowGuard-AStar: Research Stack for Interactive Clinical Reasoning on ioMEDQA"
+message: "If you use this repository, please cite the original KnowGuard paper and this research fork."
+type: software
+authors:
+  - family-names: Dharpure
+    given-names: Harshal
+    alias: harshalDharpure
+repository-code: "https://github.com/harshalDharpure/KnowGuard-AStar"
+url: "https://github.com/harshalDharpure/KnowGuard-AStar"
+abstract: >-
+  Research extension of KnowGuard for interactive multi-round clinical QA on ioMEDQA.
+  Adds PrimeKG+Hetionet retrieval, clinical RAG, A*-style questioning (discriminative
+  questions, entropy gating, phase routing), adjudicator, and multi-provider evaluation
+  (NVIDIA NIM Nemotron Ultra/Super, OpenRouter free, Gemini). Partial full-run results
+  on interactive ioMEDQA exceed the paper basic baseline of 70.98% at N≈600/1272.
+keywords:
+  - KnowGuard
+  - ioMEDQA
+  - clinical reasoning
+  - knowledge graph
+  - abstention
+  - interactive QA
+  - RAG
+  - Nemotron
+  - medical NLP
+  - A-star search
+license: MIT
+version: "0.2.0"
+date-released: "2026-09-04"
+references:
+  - type: article
+    title: "KnowGuard: Knowledge-Driven Abstention for Multi-Round Clinical Reasoning"
+    authors:
+      - family-names: "See arXiv"
+        given-names: "2509.24816"
+    journal: "ICLR 2026 (arXiv preprint)"
+    year: 2025
+    doi: "10.48550/arXiv.2509.24816"
+    url: "https://arxiv.org/abs/2509.24816"

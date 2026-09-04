@@ -1,0 +1,29 @@
+name: Experiment / result bug
+description: Something wrong with an evaluation run or metrics
+title: "[exp] "
+labels: ["experiment", "bug"]
+body:
+  - type: input
+    id: result_file
+    attributes:
+      label: Result file
+      description: Path under results/
+      placeholder: results/KnowGuardExpert_astar_lite_nim_ioMEDQA_merged_metrics.json
+    validations:
+      required: true
+  - type: input
+    id: n_acc
+    attributes:
+      label: N and ACC observed
+      placeholder: "N=597, ACC=0.712"
+  - type: textarea
+    id: repro
+    attributes:
+      label: Command / script used
+      placeholder: bash scripts/run_fast_multi_provider_resume.sh
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual

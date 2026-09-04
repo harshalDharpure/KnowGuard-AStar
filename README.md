@@ -1,12 +1,26 @@
 # KnowGuard — Research Stack, Codebase & Results (Presentation Guide)
 
+[![GitHub release](https://img.shields.io/github/v/release/harshalDharpure/KnowGuard-AStar?include_prereleases)](https://github.com/harshalDharpure/KnowGuard-AStar/releases)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.24816-b31b1b.svg)](https://arxiv.org/abs/2509.24816)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Dataset](https://img.shields.io/badge/dataset-ioMEDQA%20N%3D1272-blue)](data/interactive/ioMEDQA.jsonl)
+[![Status](https://img.shields.io/badge/full%20run-partial%20~47%25-orange)](docs/RESEARCH_STATUS.md)
+[![Cite](https://img.shields.io/badge/cite-CITATION.cff-lightgrey)](CITATION.cff)
+
 **Paper:** *KnowGuard: Knowledge-Driven Abstention for Multi-Round Clinical Reasoning* (ICLR 2026)  
 **arXiv:** [2509.24816](https://arxiv.org/abs/2509.24816)  
 **Upstream:** [IcecreamArtist/KnowGuard](https://github.com/IcecreamArtist/KnowGuard)  
-**This fork:** free/local + NVIDIA NIM / multi-provider evaluation stack aimed at beating the paper on **interactive ioMEDQA**.
+**This research fork:** [harshalDharpure/KnowGuard-AStar](https://github.com/harshalDharpure/KnowGuard-AStar)
 
-> **Snapshot date:** 2026-09-04 (IST)  
-> **Headline (partial full run):** **71.4% ACC on N=587 / 1272** interactive ioMEDQA cases — already **above** the paper’s basic KnowGuard **70.98%**, with the full N=1272 still running.
+| Doc | Purpose |
+|-----|---------|
+| [docs/RESEARCH_STATUS.md](docs/RESEARCH_STATUS.md) | Live claim board / risks / next actions |
+| [CHANGELOG.md](CHANGELOG.md) | Versioned research milestones |
+| [CITATION.cff](CITATION.cff) | Machine-readable citation |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to add experiments reproducibly |
+
+> **Snapshot date:** 2026-09-04 (IST) · **Release:** `v0.2.0`  
+> **Headline (partial full run):** **~71.2% ACC on N≈597 / 1272** interactive ioMEDQA — above paper basic **70.98%**; full N=1272 still running. **Do not claim final SOTA yet.**
 
 ---
 
@@ -27,7 +41,8 @@
 13. [Ops lessons (429s, resume, hybrid)](#13-ops-lessons-429s-resume-hybrid)
 14. [Honest limitations & next steps](#14-honest-limitations--next-steps)
 15. [Presentation talking points](#15-presentation-talking-points)
-16. [Citation](#16-citation)
+16. [Releases & tags](#16-releases--tags)
+17. [Citation](#17-citation)
 
 ---
 
@@ -63,15 +78,15 @@ We rebuilt a **runnable free stack**, then upgraded it with:
 
 ### 3.1 Flagship — A\* lite + Nemotron Ultra (partial full ioMEDQA)
 
-**Status:** 4 shards in progress · **587 / 1272 (~46%)** completed · metrics recomputed 2026-09-04.
+**Status:** 4 shards in progress · **~597 / 1272 (~47%)** completed · metrics recomputed 2026-09-04.
 
-| Split | N | ACC | Avg turns | ECE | Brier | Notes |
-|-------|--:|----:|----------:|----:|------:|-------|
-| **Merged (live)** | **587** | **71.38%** | **7.35** | 0.295 | 0.480 | Above paper basic 70.98% |
-| Shard 0 | 104 | 83.65% | 7.57 | 0.350 | 0.466 | Mostly Ultra; Gemini lite later |
-| Shard 1 | 138 | 71.01% | 7.43 | 0.261 | 0.431 | Ultra → OpenRouter Super:free |
-| Shard 2 | 194 | 68.56% | 7.41 | 0.320 | 0.534 | NIM Ultra (primary) |
-| Shard 3 | 148 | 66.89% | 7.04 | 0.250 | 0.452 | Ultra → Super:free / Gemini attempts |
+| Split | N | ACC | Avg turns | Notes |
+|-------|--:|----:|----------:|-------|
+| **Merged (live)** | **~597** | **~71.2%** | **~7.32** | Above paper basic 70.98%; see `*_merged_metrics.json` |
+| Shard 0 | 105 | 83.8% | ~7.6 | Mostly Ultra; Gemini lite later |
+| Shard 1 | 144 | 70.8% | ~7.4 | Ultra → OpenRouter Super:free |
+| Shard 2 | 196 | 67.9% | ~7.4 | NIM Ultra (primary) |
+| Shard 3 | 152 | 67.1% | ~7.0 | Ultra → Super:free / Gemini attempts |
 
 **Artifacts:**
 
@@ -385,7 +400,33 @@ python scripts/compute_metrics.py results/KnowGuardExpert_astar_lite_nim_ioMEDQA
 
 ---
 
-## 16. Citation
+## 16. Releases & tags
+
+| Tag | Date | Meaning |
+|-----|------|---------|
+| [`v0.1.0`](https://github.com/harshalDharpure/KnowGuard-AStar/releases/tag/v0.1.0) | 2026-08 | Free local replication (full N=1272 weak LLMs) |
+| [`v0.2.0`](https://github.com/harshalDharpure/KnowGuard-AStar/releases/tag/v0.2.0) | 2026-09-04 | A* lite + Ultra multi-provider **partial** full run (~71% @ ~N=600) |
+| `v0.3.0` *(planned)* | — | Frozen full **N=1272** + paper tables |
+
+See [CHANGELOG.md](CHANGELOG.md) and [docs/RESEARCH_STATUS.md](docs/RESEARCH_STATUS.md).
+
+---
+
+## 17. Citation
+
+**Cite this software** (GitHub / CITATION.cff):
+
+```bibtex
+@software{KnowGuardAStar2026,
+  title  = {KnowGuard-AStar: Research Stack for Interactive Clinical Reasoning on ioMEDQA},
+  author = {Dharpure, Harshal},
+  year   = {2026},
+  url    = {https://github.com/harshalDharpure/KnowGuard-AStar},
+  version = {0.2.0}
+}
+```
+
+**Cite the original paper:**
 
 ```bibtex
 @inproceedings{knowguard2026,
