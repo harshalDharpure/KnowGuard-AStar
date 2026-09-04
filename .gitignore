@@ -21,6 +21,7 @@ transformers_cache/
 # Secrets
 .env
 .env.*
+!.env.example
 *.pem
 credentials.json
 
