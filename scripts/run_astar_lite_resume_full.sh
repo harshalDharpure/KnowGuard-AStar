@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Resume smoke-50 then run full ioMEDQA N=1272 (lite A* stack, auto-pick freest GPU).
+# Resume smoke-50 then run full ioMEDQA N=1272 (lite stack, auto-pick freest GPU).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"

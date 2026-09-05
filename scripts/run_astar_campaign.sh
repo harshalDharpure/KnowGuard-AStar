@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Full A* campaign: smoke20 -> smoke50 -> ioMEDQA N=1272 (sequential, resume-safe)
+# Full eval campaign: smoke20 -> smoke50 -> ioMEDQA N=1272 (sequential, resume-safe)
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"

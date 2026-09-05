@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Free + fast: NIM lite A* stack, 4-GPU parallel shards for full ioMEDQA.
+# Free + fast: NIM lite stack, 4-GPU parallel shards for full ioMEDQA.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"

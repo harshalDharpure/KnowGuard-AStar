@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# A* Phase-A stack: caching, simulator fix, discriminative Q, entropy gate,
+# KnowGuard eval stack: caching, simulator fix, discriminative Q, entropy gate,
 # dual-process, phase routing, multi-model council.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -77,7 +77,7 @@ COMMON=(
 
 OUT="results/KnowGuardExpert_${TAG}_ioMEDQA_smoke${SMOKE_N}.jsonl"
 LOG="logs/KnowGuardExpert_${TAG}_ioMEDQA_smoke${SMOKE_N}.log"
-echo "[$(date)] A* stack: MODEL=$MODEL USE_API=${USE_API:-local} OUT=$OUT"
+echo "[$(date)] Eval stack: MODEL=$MODEL USE_API=${USE_API:-local} OUT=$OUT"
 "$PY" Open_benchmark.py \
   --dev_filename "$(basename "$SMOKE_FILE")" \
   --output_filename "$OUT" \

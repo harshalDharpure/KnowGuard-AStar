@@ -117,7 +117,7 @@ else
   USE_API_FLAG=()
   TAG="llama31_8b_local80stack"
   API_LABEL="local"
-  echo "WARN: no free/paid API — local $MODEL (cannot claim ≥80%)"
+  echo "WARN: no free/paid API — local $MODEL (local model only)"
 fi
 
 export CUDA_VISIBLE_DEVICES="$GPU"

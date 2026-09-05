@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Full ioMEDQA N=1272 — 4-GPU parallel NIM lite A* (no smoke gate)
+# Full ioMEDQA N=1272 — 4-GPU parallel NIM lite (no smoke gate)
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"

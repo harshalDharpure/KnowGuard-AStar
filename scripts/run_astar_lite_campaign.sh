@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Lite A* smoke campaign: fast iteration gate before full N=1272 A* run.
+# Lite smoke campaign: fast iteration gate before full N=1272 A* run.
 # - GPU 0 (most free VRAM)
 # - No council / dual-process (API-heavy)
 # - SC×1, keep discriminative Q + entropy + simulator + phase routing
@@ -102,4 +102,4 @@ for N in 20 50; do
   run_split "$N"
 done
 
-echo "[$(date)] === LITE SMOKE CAMPAIGN COMPLETE (run full A* N=1272 separately) ===" | tee -a "$CAMPAIGN_LOG"
+echo "[$(date)] === LITE SMOKE CAMPAIGN COMPLETE (run full N=1272 separately) ===" | tee -a "$CAMPAIGN_LOG"
