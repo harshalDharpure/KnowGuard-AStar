@@ -102,7 +102,7 @@ def get_args():
     parser.add_argument("--clinical_rag_top_k", type=int, default=5)
     parser.add_argument("--clinical_rag_rerank", action="store_true", default=True)
     parser.add_argument("--use_adjudicator", action="store_true", help="SEMA-style sufficiency check before final answer")
-    # A* stack flags
+    # Optional interaction / abstention flags
     parser.add_argument("--rebuild_kg_graph", action="store_true", help="Force full KG CSV scan + FAISS rebuild")
     parser.add_argument("--use_discriminative_questions", action="store_true", default=True,
                         help="Differential pruning questions (Hack 1)")

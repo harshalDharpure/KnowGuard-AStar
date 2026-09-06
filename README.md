@@ -38,10 +38,10 @@ Paper (GPT-4 + WHO KG): KnowGuard **70.98%**, Scale ~64%, Numerical ~62%.
 
 Metrics files: `results/*_full_metrics.json`
 
-## Ultra-only run
+## Nemotron Ultra run
 
-Nemotron Ultra (`scripts/run_ultra_only_serial.sh`).  
-Partial output: `results/KnowGuardExpert_astar_ultra_only_ioMEDQA_shard2.jsonl`
+Script: `scripts/run_ultra_only_serial.sh`  
+Partial output: `results/KnowGuardExpert_nemotron_ultra_ioMEDQA_shard2.jsonl`
 
 ## Setup
 

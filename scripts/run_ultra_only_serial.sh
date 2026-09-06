@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Nemotron Ultra ONLY — one shard worker at a time (avoids NIM 429).
-# Fresh output tag: astar_ultra_only (does not mix Gemini/OpenRouter cases).
+# Output tag: nemotron_ultra (NIM Ultra only).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
@@ -16,7 +16,7 @@ export USE_API=nvidia
 export KNOWGUARD_NIM_MIN_INTERVAL="${KNOWGUARD_NIM_MIN_INTERVAL:-2.5}"
 
 PY="$ROOT/.venv/bin/python"
-TAG="astar_ultra_only"
+TAG="nemotron_ultra"
 MODEL="nvidia/nemotron-3-ultra-550b-a55b"
 LOG="logs/ultra_only_serial.log"
 mkdir -p logs results data/interactive/shards
