@@ -406,8 +406,21 @@ class ModelCache:
 def get_response(messages, model_name, use_vllm=False, use_api=None, **kwargs):
     # Auto-route OpenAI-compatible providers from model name / env.
     if use_api is None:
+        # Honor process-level preference (e.g. Ultra-only runners set USE_API=nvidia).
+        env_api = (os.getenv("USE_API") or "").strip().lower()
+        if env_api in API_PROVIDERS:
+            use_api = env_api
+    if use_api is None:
         name = (model_name or "").lower()
-        if ":free" in name or name.startswith(("nvidia/", "openrouter/", "meta-llama/", "google/gemma", "qwen/", "minimax/")):
+        # NVIDIA-hosted model ids must prefer NIM, not OpenRouter.
+        if name.startswith("nvidia/") or "nemotron" in name or name.startswith("meta/"):
+            if _resolve_api_key("nvidia"):
+                use_api = "nvidia"
+            elif _resolve_api_key("openrouter"):
+                use_api = "openrouter"
+            else:
+                use_api = "kilo"
+        elif ":free" in name or name.startswith(("openrouter/", "meta-llama/", "google/gemma", "qwen/", "minimax/")):
             if _resolve_api_key("openrouter"):
                 use_api = "openrouter"
             else:
@@ -417,11 +430,6 @@ def get_response(messages, model_name, use_vllm=False, use_api=None, **kwargs):
                 use_api = "openai"
             elif _resolve_api_key("openrouter"):
                 use_api = "openrouter"
-        elif name.startswith("meta/") or "nemotron" in name:
-            if _resolve_api_key("nvidia"):
-                use_api = "nvidia"
-            else:
-                use_api = "kilo"
     model_cache = models.get(model_name, None)
     # Rebuild cache if API mode changed for same name
     if model_cache is not None and getattr(model_cache, "use_api", None) != use_api:

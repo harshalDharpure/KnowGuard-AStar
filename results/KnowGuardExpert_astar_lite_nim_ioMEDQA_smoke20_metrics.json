@@ -1,8 +1,0 @@
-{
-  "acc": 0.7,
-  "turns": 6.45,
-  "ece": 0.16000000000000003,
-  "brier": 0.202,
-  "n": 20,
-  "file": "results/KnowGuardExpert_astar_lite_nim_ioMEDQA_smoke20.jsonl"
-}

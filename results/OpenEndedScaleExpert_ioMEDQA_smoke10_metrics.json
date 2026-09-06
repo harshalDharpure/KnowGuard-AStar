@@ -1,8 +1,0 @@
-{
-  "acc": 0.2,
-  "turns": 0.3,
-  "ece": 0.0,
-  "brier": 0.8,
-  "n": 10,
-  "file": "/DATA/vaneet_2221cs15/abs_task/KnowGuard/results/OpenEndedScaleExpert_ioMEDQA_smoke10.jsonl"
-}

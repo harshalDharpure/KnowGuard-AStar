@@ -1,8 +1,0 @@
-{
-  "acc": 0.2,
-  "turns": 0.2,
-  "ece": 0.0,
-  "brier": 0.8,
-  "n": 5,
-  "file": "results/KnowGuardExpert_smoke.jsonl"
-}

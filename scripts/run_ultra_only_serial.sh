@@ -7,7 +7,11 @@ cd "$ROOT"
 source "$ROOT/.venv/bin/activate"
 export PYTHONUNBUFFERED=1
 if [[ -f "$ROOT/.env" ]]; then set -a; source "$ROOT/.env"; set +a; fi
-unset OPENROUTER_API_KEY OPENAI_API_KEY GOOGLE_API_KEY GEMINI_API_KEY
+# Keep keys present-but-empty so helper._load_dotenv_if_present cannot re-inject them.
+export OPENROUTER_API_KEY=
+export OPENAI_API_KEY=
+export GOOGLE_API_KEY=
+export GEMINI_API_KEY=
 export USE_API=nvidia
 export KNOWGUARD_NIM_MIN_INTERVAL="${KNOWGUARD_NIM_MIN_INTERVAL:-2.5}"
 
